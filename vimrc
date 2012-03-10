@@ -62,3 +62,14 @@ set number
 " turn on current line and column highlighting
 set cursorline
 set cursorcolumn
+
+set shiftwidth=2
+set tabstop=2
+set expandtab
+set softtabstop=2
+
+" Automatically remove trailing spaces when saving
+autocmd BufWritePre * :%s/\s\+$//e
+" Replace leading tabs with spaces
+autocmd BufWritePre * :%s/\t\t/    /e
+autocmd BufWritePre * :%s/\t/  /e
