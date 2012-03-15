@@ -73,3 +73,6 @@ autocmd BufWritePre * :%s/\s\+$//e
 " Replace leading tabs with spaces
 autocmd BufWritePre * :%s/\t\t/    /e
 autocmd BufWritePre * :%s/\t/  /e
+
+" move swap files to a single directory
+set directory=~/temp//
