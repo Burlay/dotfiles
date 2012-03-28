@@ -30,5 +30,5 @@ precmd() {
   hostname="%{$fg[blue]%}%m %{$fg[yellow]%}"
 }
 
-  PROMPT='$name@$hostname%~ $vcs_info_msg_0_%{$reset_color%}
+PROMPT='$name@$hostname%~ $vcs_info_msg_0_%{$reset_color%}
 %# '
