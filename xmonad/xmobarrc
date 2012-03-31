@@ -1,3 +1,4 @@
-Config { commands = [ Run StdinReader ]
+Config { font = "xft:Inconsolata:size=8:antialias=true:hinting:true"
+       , commands = [ Run StdinReader ]
        , template = " %StdinReader%"
        }
