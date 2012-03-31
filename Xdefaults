@@ -79,4 +79,5 @@
 
 URxvt.scrollBar: off
 URxvt.depth: 32
-URxvt*background: rgba:0000/0000/0000/cccc
+URxvt.font: xft:Inconsolata:pixelsize=10:antialias=true:hinting=true
+URxvt.boldfont: xft:Inconsolata:bold:pixelsize=10:antialias=true:hinting=true
