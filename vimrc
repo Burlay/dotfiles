@@ -68,6 +68,10 @@ set tabstop=2
 set expandtab
 set softtabstop=2
 
+" Highlight column 80 to help with keeping single lines short
+set textwidth=80
+set colorcolumn=+1
+
 " Automatically remove trailing spaces when saving
 autocmd BufWritePre * :%s/\s\+$//e
 " Replace leading tabs with spaces

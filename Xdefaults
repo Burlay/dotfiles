@@ -76,8 +76,12 @@
 *color7:                S_base2
 *color15:               S_base3
 
+Xft.hinting: true
+Xft.hintstyle: hintfull
+Xft.antialias: rgba
+Xft.rgba: rgb
 
 URxvt.scrollBar: off
 URxvt.depth: 32
-URxvt.font: xft:Inconsolata:pixelsize=10:antialias=true:hinting=true
-URxvt.boldfont: xft:Inconsolata:bold:pixelsize=10:antialias=true:hinting=true
+URxvt.font: xft:Inconsolata:pixelsize=13:antialias=true:hinting=true
+URxvt.boldfont: xft:Inconsolata:bold:pixelsize=13:antialias=true:hinting=true
