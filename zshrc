@@ -2,6 +2,7 @@
 HISTFILE=~/.histfile
 HISTSIZE=1000
 SAVEHIST=1000
+PATH=$PATH:/home/bastiaan/.gem/ruby/1.9.1/bin
 setopt appendhistory autocd
 unsetopt beep
 bindkey -v
@@ -32,3 +33,7 @@ precmd() {
 
 PROMPT='$name@$hostname%~ $vcs_info_msg_0_%{$reset_color%}
 %# '
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"

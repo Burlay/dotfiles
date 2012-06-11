@@ -1,4 +1,4 @@
-Config { font = "xft:Inconsolata:size=9:antialias=true:hinting:true"
+Config { font = "xft:DejaVu Sans:size=10:antialias=true:hinting:true"
        , commands = [ Run StdinReader ]
        , template = " %StdinReader%"
        }

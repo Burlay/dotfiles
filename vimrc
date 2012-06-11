@@ -53,7 +53,7 @@ set scrolloff=8
 set incsearch
 
 " set colors to solarized
-set background=dark
+set background=light
 colorscheme solarized
 
 " turn on line numbers
@@ -69,8 +69,8 @@ set expandtab
 set softtabstop=2
 
 " Highlight column 80 to help with keeping single lines short
-set textwidth=80
-set colorcolumn=+1
+" set textwidth=80
+" set colorcolumn=+1
 
 " Automatically remove trailing spaces when saving
 autocmd BufWritePre * :%s/\s\+$//e
@@ -79,4 +79,4 @@ autocmd BufWritePre * :%s/\t\t/    /e
 autocmd BufWritePre * :%s/\t/  /e
 
 " move swap files to a single directory
-set directory=~/temp//
+set directory=~/temp/
