@@ -1,3 +1,9 @@
+set runtimepath^=~/.vim  "Use instead of "vimfiles" on windows
+
+" add pathogen
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
+
 " Forget being compatible with good ol' vi
 set nocompatible
 
@@ -8,6 +14,12 @@ filetype indent on
 
 " Turn on syntax highlighting
 syntax on
+
+" Set colorscheme to solarized
+set background=light
+colorscheme solarized
+
+nnoremap <F5> :GundoToggle<CR> " Bind gundo to F5
 
 " Don't update the display while executing macros
 set lazyredraw
@@ -51,10 +63,6 @@ set scrolloff=8
 
 " Turn on incremental search
 set incsearch
-
-" set colors to solarized
-set background=light
-colorscheme solarized
 
 " turn on line numbers
 set number
