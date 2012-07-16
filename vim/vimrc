@@ -64,8 +64,8 @@ set scrolloff=8
 " Turn on incremental search
 set incsearch
 
-" turn on line numbers
-set number
+" turn on relative line numbers
+set relativenumber
 
 " turn on current line and column highlighting
 set cursorline
