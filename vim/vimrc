@@ -58,6 +58,10 @@ set mousehide
 " turn of extra gui elements
 set guioptions=ac
 
+if has('gui_running')
+  set guifont=Source_Code_Pro_Medium:h11
+endif
+
 " Keep the cursor 8 lines from the top and from the bottom
 set scrolloff=8
 
