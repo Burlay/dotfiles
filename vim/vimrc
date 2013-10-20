@@ -19,6 +19,9 @@ syntax on
 set background=light
 colorscheme solarized
 
+" disable italics
+let g:solarized_italic=0
+
 nnoremap <F5> :GundoToggle<CR> " Bind gundo to F5
 
 " Don't update the display while executing macros
