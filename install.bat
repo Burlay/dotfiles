@@ -2,10 +2,12 @@
 
 net session >nul 2>&1
 if %errorLevel% == 0 (
-	echo Succes: Administrative permissions confirmed.
+  echo Succes: Administrative permissions confirmed.
 
-	mklink %userprofile%\_vimrc %~dp0\vim\vimrc 
-	mklink /J %userprofile%\vimfiles %~dp0\vim
+  mklink %userprofile%\_vimrc %~dp0\vim\vimrc
+  mklink /J %userprofile%\vimfiles %~dp0\vim
+
+  mkdir %userprofile%\temp
 ) else (
-	echo Failure: Current permissions inadequate
+  echo Failure: Current permissions inadequate
 )
