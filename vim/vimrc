@@ -95,3 +95,6 @@ autocmd BufWritePre * :%s/\t/  /e
 
 " move swap files to a single directory
 set directory=~/temp/
+
+" make sure to use unix style line endings
+set ff=unix
