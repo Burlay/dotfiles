@@ -71,6 +71,9 @@ set scrolloff=8
 " Turn on incremental search
 set incsearch
 
+"Show linenumber
+set number
+
 " turn on current line and column highlighting
 set cursorline
 set cursorcolumn
